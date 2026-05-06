@@ -1,0 +1,15 @@
+/*Set custom colors for UI*/
+.backgroundContainer,
+.dialog,
+html {
+  background-color: #050e15;
+}
+
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
+  background: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
+  background: none;
+  background-color: rgba(0, 0, 0, 0);
+}
