@@ -1,0 +1,23 @@
+:root {
+    /* Dark mode adjustments if needed */
+    --mantine-color-dark-0: #C9C9C9;
+    --mantine-color-dark-1: #050e15;
+    --mantine-color-dark-2: #75aae0;
+    --mantine-color-dark-3: #050e15;
+    --mantine-color-dark-4: #034d6f; /* Outlines*/
+    --mantine-color-dark-5: #050e15;
+    --mantine-color-dark-6: #050e15; /* Button color*/
+    --mantine-color-dark-7: #050e15; /* Fill color*/
+    --mantine-color-dark-8: #050e15;
+}
+/* Target the AreaChart background specifically */
+:root[data-mantine-color-scheme="dark"] .mantine-AreaChart-root {
+    background: #050e15 !important;
+    background-color: #050e15 !important;
+}
+
+/* Also catch any inline rgba styles that might override */
+:root[data-mantine-color-scheme="dark"] .mantine-AreaChart-root[style*="background"] {
+    background: #050e15 !important;
+    background-color: #050e15 !important;
+}
