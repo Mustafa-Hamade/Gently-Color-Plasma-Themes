@@ -897,62 +897,6 @@ html,
 
 
 
-/* Live TV */
-/* Modified background color of active guide cells */
-.programCell-active {
-    background: var(--secondary-background-color) !important;
-}
-/* Repositioned record button */
-.recordingFields {
-    margin: 5px 0 -7px 0 !important;
-}
-.recordingButton {
-    height: 40px !important;
-}
-.recordingIcon {
-    color: red !important;
-}
-/* Remove overlapping text */
-.itemMiscInfo.itemMiscInfo-secondary {
-    margin-left: 65px !important;
-}
-
-
-
-/* Music Player */
-.layout-desktop .appfooter:has(.nowPlayingBar:not(.hide)) {
-    border-radius: var(--rounded-cards);
-    margin: 15px 15px 10px 265px;
-    padding: 5px;
-    background: var(--tertiary-background-transparent);
-    backdrop-filter: blur(var(--blur));
-}
-.layout-desktop .appfooter .nowPlayingBarInfoContainer {
-    margin-left: 10px !important;
-}
-.layout-desktop .volumeOsd {
-    border-radius: var(--rounded-cards) !important;
-    background: var(--secondary-background-transparent) !important;
-}
-.layout-desktop .nameContainer .musicParentName {
-    margin-top: 18px !important;
-    margin-right: 22px !important;
-}
-.layout-desktop .appfooter .nowPlayingBar {
-    margin-top: 20px !important;
-}
-.layout-desktop .appfooter .nowPlayingBar .nowPlayingBarPositionContainer {
-    top: -15px !important;
-}
-/* Shift page up so now-playing footer doesn't block anything */
-.layout-desktop:has(.nowPlayingBar:not(.hide)) .content-primary,
-.layout-desktop:has(.nowPlayingBar:not(.hide)) .padded-bottom-page,
-.layout-desktop:has(.nowPlayingBar:not(.hide)) .page,
-.layout-desktop:has(.nowPlayingBar:not(.hide)) .pageWithAbsoluteTabs .pageTabContent {
-    padding-bottom: calc(env(safe-area-inset-bottom) + 8em) !important;
-}
-
-
 
 /* Display size scaling */
 @media (width: 1600px) {
@@ -984,16 +928,6 @@ html,
 
 
 
-/* Fixes for TV Layout */
-.layout-tv .sectionTabs {
-    width: auto !important;
-}
-.layout-tv .headerLeft {
-    padding: 5px !important;
-}
-
-
-
 /* Dialog box */
 .dialog {
     background-color: var(--secondary-background-color) !important;
@@ -1011,7 +945,6 @@ html,
 .layout-desktop #itemDetailPage:not(.noBackdropTransparency) .detailSectionContent,
 .layout-desktop #itemDetailPage:not(.noBackdropTransparency) .trackSelections {
     background: var(--primary-background-transparent) !important;
-    backdrop-filter: blur(var(--blur)) !important;
 }
 
 /* Transparent drawer */
